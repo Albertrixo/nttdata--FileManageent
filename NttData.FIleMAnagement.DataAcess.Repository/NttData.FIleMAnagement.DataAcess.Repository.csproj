@@ -7,8 +7,8 @@
     <ProjectGuid>{17960228-52F7-4D97-8092-015121C7E28C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NttData.FIleMAnagement.DataAcess.Repository</RootNamespace>
-    <AssemblyName>NttData.FIleMAnagement.DataAcess.Repository</AssemblyName>
+    <RootNamespace>NttData.FileManagement.DataAcess.Repository</RootNamespace>
+    <AssemblyName>NttData.FileManagement.DataAcess.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -46,9 +46,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NttData.FIleMAnagement.Common.Model\NttData.FIleMAnagement.Common.Model.csproj">
+    <ProjectReference Include="..\NttData.FIleMAnagement.Common.Model\NttData.FileManagement.Common.Model.csproj">
       <Project>{f1bba246-bec4-415b-99d8-10086a6f9206}</Project>
-      <Name>NttData.FIleMAnagement.Common.Model</Name>
+      <Name>NttData.FileManagement.Common.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

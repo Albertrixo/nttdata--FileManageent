@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7F514BA6-BC08-4811-8129-A115435E6101}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NttData.FileMaagement.presentation.WinSIte</RootNamespace>
-    <AssemblyName>NttData.FileMaagement.presentation.WinSIte</AssemblyName>
+    <RootNamespace>NttData.FileManagement.presentation.WinSIte</RootNamespace>
+    <AssemblyName>NttData.FileManagement.presentation.WinSIte</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmStudent.resx">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NttData.FIleMAnagement.Business.Logic\NttData.FileManagement.Business.Logic.csproj">
+      <Project>{b3a5bad2-a4c5-4f58-ae5c-b920b86c4377}</Project>
+      <Name>NttData.FileManagement.Business.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NttData.FIleMAnagement.Common.Model\NttData.FileManagement.Common.Model.csproj">
+      <Project>{f1bba246-bec4-415b-99d8-10086a6f9206}</Project>
+      <Name>NttData.FileManagement.Common.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NttData.FIleMAnagement.Common.Model
+namespace NttData.FileManagement.Common.Model
 {
     public class Student
     {
