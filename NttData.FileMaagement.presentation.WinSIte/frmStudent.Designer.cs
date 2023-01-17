@@ -1,6 +1,6 @@
 ﻿namespace NttData.FileMaagement.presentation.WinSIte
 {
-    partial class Form1
+    partial class frmStudent
     {
         /// <summary>
         /// Variable del diseñador necesaria.

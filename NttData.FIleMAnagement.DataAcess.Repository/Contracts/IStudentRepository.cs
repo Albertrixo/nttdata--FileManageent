@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NttData.FIleMAnagement.DataAcess.Repository
+namespace NttData.FIleMAnagement.DataAcess.Repository.Contracts
 {
-    public class Class1
+    public class IStudentRepository
     {
     }
 }
