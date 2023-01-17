@@ -7,8 +7,8 @@
     <ProjectGuid>{B3A5BAD2-A4C5-4F58-AE5C-B920B86C4377}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NttData.FIleMAnagement.Business.Logic</RootNamespace>
-    <AssemblyName>NttData.FIleMAnagement.Business.Logic</AssemblyName>
+    <RootNamespace>NttData.FileManagement.Business.Logic</RootNamespace>
+    <AssemblyName>NttData.FileManagement.Business.Logic</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,18 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\IStudentService.cs" />
+    <Compile Include="Contracts\ISTudentService.cs" />
     <Compile Include="Implementations\StudentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NttData.FIleMAnagement.Common.Model\NttData.FIleMAnagement.Common.Model.csproj">
+    <ProjectReference Include="..\NttData.FIleMAnagement.Common.Model\NttData.FileManagement.Common.Model.csproj">
       <Project>{f1bba246-bec4-415b-99d8-10086a6f9206}</Project>
-      <Name>NttData.FIleMAnagement.Common.Model</Name>
+      <Name>NttData.FileManagement.Common.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NttData.FIleMAnagement.DataAcess.Repository\NttData.FIleMAnagement.DataAcess.Repository.csproj">
+    <ProjectReference Include="..\NttData.FIleMAnagement.DataAcess.Repository\NttData.FileManagement.DataAcess.Repository.csproj">
       <Project>{17960228-52f7-4d97-8092-015121c7e28c}</Project>
-      <Name>NttData.FIleMAnagement.DataAcess.Repository</Name>
+      <Name>NttData.FileManagement.DataAcess.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

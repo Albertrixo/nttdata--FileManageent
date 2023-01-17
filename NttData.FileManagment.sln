@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataAcess Tier", "3.DataA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Common Tier", "4.Common Tier", "{2A3199DB-32FD-4AF4-B219-7232A71CEF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FIleMAnagement.Business.Logic", "NttData.FIleMAnagement.Business.Logic\NttData.FIleMAnagement.Business.Logic.csproj", "{B3A5BAD2-A4C5-4F58-AE5C-B920B86C4377}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Business.Logic", "NttData.FIleMAnagement.Business.Logic\NttData.FileManagement.Business.Logic.csproj", "{B3A5BAD2-A4C5-4F58-AE5C-B920B86C4377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FIleMAnagement.DataAcess.Repository", "NttData.FIleMAnagement.DataAcess.Repository\NttData.FIleMAnagement.DataAcess.Repository.csproj", "{17960228-52F7-4D97-8092-015121C7E28C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.DataAcess.Repository", "NttData.FIleMAnagement.DataAcess.Repository\NttData.FileManagement.DataAcess.Repository.csproj", "{17960228-52F7-4D97-8092-015121C7E28C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FIleMAnagement.Common.Model", "NttData.FIleMAnagement.Common.Model\NttData.FIleMAnagement.Common.Model.csproj", "{F1BBA246-BEC4-415B-99D8-10086A6F9206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Common.Model", "NttData.FIleMAnagement.Common.Model\NttData.FileManagement.Common.Model.csproj", "{F1BBA246-BEC4-415B-99D8-10086A6F9206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileMaagement.presentation.WinSIte", "NttData.FileMaagement.presentation.WinSIte\NttData.FileMaagement.presentation.WinSIte.csproj", "{7F514BA6-BC08-4811-8129-A115435E6101}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.presentation.WinSIte", "NttData.FileMaagement.presentation.WinSIte\NttData.FileManagement.presentation.WinSIte.csproj", "{7F514BA6-BC08-4811-8129-A115435E6101}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

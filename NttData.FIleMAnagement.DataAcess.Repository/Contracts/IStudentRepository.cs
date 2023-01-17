@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NttData.FIleMAnagement.DataAcess.Repository.Contracts
+namespace NttData.FIleManagement.DataAcess.Repository.Contracts
 {
     public class IStudentRepository
     {

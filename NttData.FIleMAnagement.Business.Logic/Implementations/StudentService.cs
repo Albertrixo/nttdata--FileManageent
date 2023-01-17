@@ -1,14 +1,14 @@
-﻿using NttData.FIleMAnagement.Business.Logic.Contracts;
-using NttData.FIleMAnagement.Common.Model;
+﻿using NttData.FileManagement.Business.Logic.Contracts;
+using NttData.FileManagement.Common.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NttData.FIleMAnagement.Business.Logic.Implementations
+namespace NttData.FileManagement.Business.Logic.Implementations
 {
-    public class StudentService : IStudentService
+    public class StudentService : ISTudentService
     {
         public bool Add(Student student)
         {
